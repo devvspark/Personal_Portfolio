@@ -61,7 +61,7 @@ import code from './assets/work_logo/code.png';
 import ai from './assets/work_logo/ai.png';
 import job from './assets/work_logo/job.png';
 import weather from './assets/work_logo/weather.png';
-
+import gitt from './assets/work_logo/gitt.png';
 
 
 
@@ -261,6 +261,16 @@ export const SkillsInfo = [
     },
     {
       id: 4,
+      title: "Github profile Finder",
+      description:
+        "An interactive web app to search GitHub profiles by username or generate multiple random profiles, built using  JavaScript and GitHub API for real-time data fetching.",
+      image: gitt,
+      tags: [ "React","JavaScript", "HTML", "CSS" ,"Github API"],
+      // github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      // webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    },
+    {
+      id: 5,
       title: "Weather App ",
       description:
         "An interactive weather application that provides real-time temperature and climate details for any city using a Weather API. Designed with a clean and responsive interface, it enables users to instantly check weather updates, humidity levels, and conditions with a smooth user experience.",
