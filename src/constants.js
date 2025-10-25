@@ -60,6 +60,7 @@ import dsa from './assets/work_logo/dsa.png';
 import code from './assets/work_logo/code.png';
 import ai from './assets/work_logo/ai.png';
 import job from './assets/work_logo/job.png';
+import weather from './assets/work_logo/weather.png';
 
 
 
@@ -258,16 +259,16 @@ export const SkillsInfo = [
       github: "https://github.com/devvspark/CarrerBridge",
       webapp: "https://carrer-bridge-phi.vercel.app/",
     },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
+    {
+      id: 4,
+      title: "Weather App ",
+      description:
+        "An interactive weather application that provides real-time temperature and climate details for any city using a Weather API. Designed with a clean and responsive interface, it enables users to instantly check weather updates, humidity levels, and conditions with a smooth user experience.",
+      image: weather,
+      tags: ["JavaScript", "HTML", "CSS" ,"Weather API"],
+      // github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      // webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    },
     // {
     //   id: 5,
     //   title: "Webverse Digital",
